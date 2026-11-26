@@ -28,6 +28,8 @@ dependencies = [
     "torch>=2.2 ; platform_machine != 'x86_64' or sys_platform != 'darwin'",
     "kagglehub[pandas-datasets]>=1.0.3",
     "sweetviz>=2.3.3",
+    "optuna>=5.1.0",
+    "shap>=0.49.1",
 ]
 
 [project.scripts]
